@@ -1,55 +1,39 @@
 # Snake Game
 
-This is a simple implementation of the classic Snake game using Python and the Pygame library.
+A simple Snake game implementation. Replace this description with a brief overview of your version (language, library used, and purpose).
+
+## Features
+- Classic snake movement and growth
+- Score tracking
+- Game over detection
 
 ## Prerequisites
+- List your requirements here (e.g., Python version, libraries, Node version, etc.)
 
-- Python 3.x
-- Pygame library
+## Getting Started
+1. Clone the repository:
+   ```
+   git clone https://github.com/Idhant-Mehta/snake-game-.git
+   cd snake-game-
+   ```
+2. Install dependencies:
+   - Example (Python): `pip install -r requirements.txt`
+   - Example (Node): `npm install`
 
-## Installation
+## Running the Game
+- Example (Python): `python main.py`
+- Example (Node): `npm start`
+- Replace with the actual command(s) for this project.
 
-1. **Clone the repository:**
+## Controls
+- Arrow keys/WASD to move
+- Customize with your actual controls
 
-   ```sh
-  pip install pygame
+## Project Structure
+- Briefly describe key files and folders (e.g., `main.py`, `assets/`, `src/`)
 
-   cd snake-game
-ou can install Pygame using pip:
+## Screenshots
+- Add images or GIFs showing gameplay
 
-sh
-Copy code
-pip install pygame
-How to Play
-Run the game:
-
-sh
-Copy code
-python snake_game.py
-Controls:
-
-Use the arrow keys to move the snake:
-Left arrow key to move left
-Right arrow key to move right
-Up arrow key to move up
-Down arrow key to move down
-Objective:
-
-The objective of the game is to eat the green food squares.
-Each time the snake eats food, it grows in length, and the score increases.
-Avoid hitting the walls or the snake's own body.
-Code Explanation
-The main code is contained in the snake_game.py file. Here's a brief overview of the main components:
-
-Colors and Display Settings: Defines colors and sets the display dimensions and caption.
-Clock: Initializes the clock object to control the speed of the snake.
-Font Styles: Sets font styles for displaying text.
-Functions:
-our_snake: Draws the snake on the display.
-your_score: Displays the score on the screen.
-message: Displays a message on the screen.
-Game Loop: Main loop where the game logic is executed:
-Checks for game over and game close conditions.
-Handles keyboard inputs for controlling the snake.
-Updates the position of the snake and checks for collisions.
-Updates the display and controls the frame rate.
+## License
+- Specify your license (e.g., MIT). If none, remove this section or add one.
